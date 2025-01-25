@@ -1,0 +1,172 @@
+[Root]
+Most Recent Package=Bonel Skupstina
+
+[Package|Bonel Skupstina|Bonel Skupstina]
+Icon1=BonelSkupstina.exe
+Title1=Bonel Skupstina
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Bonel Skupstina|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\ambra\Desktop\Skupstina
+
+[Package|Bonel Skupstina|Configure DAO ISAMs]
+Applicable=No
+Xbase=No
+Paradox=No
+Text=No
+Excel=No
+Lotus=No
+Exchange=No
+Jet 2.x=Yes
+
+[Package|Bonel Skupstina|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Bonel Skupstina|Files Found]
+data.mdb=C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Bonel skupstina\data.mdb
+
+[Package|Bonel Skupstina|Files Released]
+Copy of data.mdb=
+
+[Package|Bonel Skupstina|Missing Dependency Information]
+
+[Package|Bonel Skupstina|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Bonel Skupstina|Files Added]
+data.mdb=
+
+[Package|Bonel Skupstina|Files Removed]
+
+[Package|Bonel Skupstina|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=Yes
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Bonel skupstina\BonelSkupstina.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Bonel skupstina\data.mdb=Yes
+
+[Package|Bonel Skupstina|Configure Registry Files]
+Applicable=No
+
+[Package|Bonel Skupstina|Configure Remote Servers]
+Applicable=No
+
+[Package|Bonel Skupstina|Install Locations]
+C:\My Documents\Moji VB primjeri\Bonel skupstina\BonelSkupstina.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCHRT20.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\Moji VB primjeri\Bonel skupstina\data.mdb=$(AppPath)
+C:\My Documents\Moji VB primjeri\Bonel skupstina\Copy of data.mdb=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWSTR10.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWDAT10.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD3X40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTES40.DLL=$(WinSysPathSysFile)
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Bonel skupstina\BonelSkupstina.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Bonel skupstina\data.mdb=$(AppPath)
+
+[Package|Bonel Skupstina|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\Moji VB primjeri\Bonel skupstina\BonelSkupstina.exe=No
+C:\My Documents\Moji VB primjeri\Bonel skupstina\data.mdb=No
+C:\My Documents\Moji VB primjeri\Bonel skupstina\Copy of data.mdb=No
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Bonel skupstina\BonelSkupstina.exe=No
+C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Bonel skupstina\data.mdb=No
+
+[Package|Bonel Skupstina|Distribution]
+Type=single
+Size=1.44 MB
+Title=Bonel Skupstina
+
+[Package|Bonel Skupstina|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=-1
+Parent0=
+
+[Package|Bonel Skupstina|$(Programs)]
+Icon1=BonelSkupstina.exe
+Title1=Bonel Skupština
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|Bonel Skupstina|Package]
+PackageFolder=C:\Documents and Settings\ambra\Desktop\Skupstina
+ProjectFolder=C:\Documents and Settings\ambra\My Documents\Moji VB primjeri\Bonel skupstina
+ServerSideCab=
+File1=C:\Documents and Settings\ambra\Desktop\Skupstina\setup.exe
+File2=C:\Documents and Settings\ambra\Desktop\Skupstina\Setup.Lst
+File3=C:\Documents and Settings\ambra\Desktop\Skupstina\BonelSkupstina.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
